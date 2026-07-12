@@ -28,12 +28,24 @@ Once installed globally, Claude Code automatically applies these production stan
 it works with Three.js, React Three Fiber, WebGL, GLSL shaders, GLTF models, or 3D visualizations
 — in any project**.
 
-Install it for every project:
+Install it for every project — run the bundled script:
+
+```bash
+./install.sh          # macOS / Linux (Git Bash / WSL on Windows)
+```
+
+```powershell
+.\install.ps1         # native Windows PowerShell
+```
+
+Or copy it manually:
 
 ```bash
 mkdir -p ~/.claude/skills
 cp -R .claude/skills/threejs-handbook ~/.claude/skills/
 ```
+
+Then restart Claude Code. Re-run `./install.sh` any time after pulling changes to update.
 
 See [`.claude/skills/threejs-handbook/README.md`](.claude/skills/threejs-handbook/README.md) for
 details, per-project install, and how to keep it in sync with the chapters.
