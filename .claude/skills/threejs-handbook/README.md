@@ -21,7 +21,14 @@ relevant `references/` chapter when it needs domain detail.
 
 ## Install globally (recommended — makes it active in every project)
 
-Copy the skill into your personal Claude Code skills directory:
+From the repository root, run the bundled installer:
+
+```bash
+./install.sh
+```
+
+It copies the skill into `~/.claude/skills/` and prints the next steps. Prefer to do it by
+hand? Copy it into your personal Claude Code skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills
@@ -34,7 +41,7 @@ Restart Claude Code (or start a new session). Verify it's registered:
 ls ~/.claude/skills/threejs-handbook
 ```
 
-To update later, re-run the `cp -R` command after pulling changes.
+To update later, re-run `./install.sh` (or the `cp -R` command) after pulling changes.
 
 ## Use it in a single project only
 
