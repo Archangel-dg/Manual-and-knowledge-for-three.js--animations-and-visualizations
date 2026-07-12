@@ -19,6 +19,27 @@ The goal is to ensure every scene reaches a consistent level of quality regardin
 
 ---
 
+## Use as a Claude Code Skill
+
+This handbook is packaged as a self-activating **Claude Code Skill** at
+[`.claude/skills/threejs-handbook/`](.claude/skills/threejs-handbook/).
+
+Once installed globally, Claude Code automatically applies these production standards **whenever
+it works with Three.js, React Three Fiber, WebGL, GLSL shaders, GLTF models, or 3D visualizations
+— in any project**.
+
+Install it for every project:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R .claude/skills/threejs-handbook ~/.claude/skills/
+```
+
+See [`.claude/skills/threejs-handbook/README.md`](.claude/skills/threejs-handbook/README.md) for
+details, per-project install, and how to keep it in sync with the chapters.
+
+---
+
 ## Philosophy
 
 Every scene should feel intentional.
