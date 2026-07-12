@@ -125,11 +125,13 @@ Every project should feel like it belongs to the same design language.
 
 10 Game Animation
 
-11 Best Practices
+11 Sound
 
-12 Checklists
+12 Best Practices
 
-13 Case Studies
+13 Checklists
+
+14 Case Studies
 
 ---
 
