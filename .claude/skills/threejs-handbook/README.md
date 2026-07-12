@@ -24,7 +24,11 @@ relevant `references/` chapter when it needs domain detail.
 From the repository root, run the bundled installer:
 
 ```bash
-./install.sh
+./install.sh          # macOS / Linux (Git Bash / WSL on Windows)
+```
+
+```powershell
+.\install.ps1         # native Windows PowerShell
 ```
 
 It copies the skill into `~/.claude/skills/` and prints the next steps. Prefer to do it by

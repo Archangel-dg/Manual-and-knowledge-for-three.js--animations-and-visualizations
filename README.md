@@ -31,7 +31,11 @@ it works with Three.js, React Three Fiber, WebGL, GLSL shaders, GLTF models, or 
 Install it for every project — run the bundled script:
 
 ```bash
-./install.sh
+./install.sh          # macOS / Linux (Git Bash / WSL on Windows)
+```
+
+```powershell
+.\install.ps1         # native Windows PowerShell
 ```
 
 Or copy it manually:
